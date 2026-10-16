@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Denver Imperial Hamilton – Impact FX</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Montserrat:wght@400;500&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Kaushan+Script&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="poster" id="poster">
+    <div class="glow-top"></div>
+    <div class="smoke smoke-left"></div>
+    <div class="smoke smoke-right"></div>
+    <canvas id="sparks"></canvas>
+
+    <header class="top">
+      <h1>DENVER</h1>
+      <p>FRAGRANCE THAT MAKES AN IMPRESSION</p>
+    </header>
+
+    <section class="impact">
+      <div class="impact-title"><span class="i">Impact</span><span class="fx">FX</span></div>
+      <div class="swoosh"></div>
+      <p class="tag">BIGGER<br />BOLDER<br />LONGER</p>
+    </section>
+
+    <aside class="features">
+      <div class="feat"><svg viewBox="0 0 48 48"><circle cx="22" cy="26" r="14"/><path d="M22 18v8l5 3M34 8l5 5M10 8l-5 5"/></svg><span>LONG LASTING<br />FRESHNESS</span></div>
+      <div class="feat"><svg viewBox="0 0 48 48"><path d="M24 6l15 5v12c0 10-7 16-15 19C16 39 9 33 9 23V11z"/><path d="M17 24l5 5 9-10"/></svg><span>CONFIDENCE<br />ALL DAY</span></div>
+      <div class="feat"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="19"/><path d="M24 10c8 8 8 20 0 28-8-8-8-20 0-28zM24 18v20"/></svg><span>PREMIUM<br />FRAGRANCE</span></div>
+    </aside>
+
+    <div class="stage">
+      <div class="ring ring1"></div>
+      <div class="ring ring2"></div>
+
+      <div class="can" id="can">
+        <div class="cap"></div>
+        <div class="body">
+          <svg class="laurel" viewBox="0 0 200 200">
+            <g fill="#b8862f">
+              <g id="leaves">
+                <ellipse cx="45" cy="120" rx="5" ry="14" transform="rotate(-30 45 120)"/>
+                <ellipse cx="38" cy="95" rx="5" ry="14" transform="rotate(-15 38 95)"/>
+                <ellipse cx="40" cy="70" rx="5" ry="14"/>
+                <ellipse cx="52" cy="48" rx="5" ry="14" transform="rotate(20 52 48)"/>
+                <ellipse cx="72" cy="140" rx="5" ry="14" transform="rotate(-50 72 140)"/>
+              </g>
+              <use href="#leaves" transform="translate(200 0) scale(-1 1)"/>
+            </g>
+            <text x="100" y="118" text-anchor="middle" font-family="Cinzel" font-weight="700" font-size="78" fill="#b8862f">D</text>
+          </svg>
+          <h2>DENVER</h2>
+          <p class="sub">Deodorant Body Spray</p>
+          <p class="size">200 ml · 144 g e 6.07 Fl. Oz.</p>
+          <p class="variant">Imperial</p>
+        </div>
+        <div class="band">HAMILTON</div>
+        <div class="shine"></div>
+      </div>
+
+      <div class="rock r1"></div><div class="rock r2"></div><div class="rock r3"></div>
+      <div class="rock r4"></div><div class="rock r5"></div><div class="rock r6"></div>
+    </div>
+
+    <div class="ground"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
